@@ -291,13 +291,23 @@ a {text-decoration: none;}
 }
 
 .gallery {
-	justify-content: center;
-	align-items: center;
-	text-align: center;
 	padding:15px
 }
 
 .gallery img{
-	max-width: 600px;
-	padding-bottom:5px
+	width: 600px;
+	height: 600px;
+	object-fit: cover;
+	object-position: top;
+	padding:10px;
+	transition: 0.5s;
 }
+
+.gallery img:hover{
+	width: 610px;
+	height: 610px;
+	margin-top: -5px;
+	margin-right: -5px;
+	margin-bottom: -5px;
+	margin-left: -5px;
+	opacity:90%;
