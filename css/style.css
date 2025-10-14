@@ -289,3 +289,15 @@ a {text-decoration: none;}
   font-weight: 400;
   font-style: normal;
 }
+
+.gallery {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding:15px
+}
+
+.gallery img{
+	max-width: 600px;
+	padding-bottom:5px
+}
