@@ -223,6 +223,14 @@ a {text-decoration: none;}
 
 #facebook:hover{color:#4267B2}
 
+#instagram{
+  font-size: 20px;
+  color: rgb(104, 104, 104);
+  transition: 0.3s;
+}
+
+#instagram:hover{color:#E1306C}
+
 .sidenav a{color:#777}
 
 @media screen and (max-width: 768px) {
