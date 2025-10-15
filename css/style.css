@@ -353,3 +353,54 @@ a {text-decoration: none;}
 	opacity:90%;
 }
 }
+
+.scissors{
+	width:350px;
+	height:auto;
+	opacity:89%
+}
+
+.scissorsbox {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top:10px;
+	padding-bottom:10px;
+	}
+	
+@media screen and (max-width: 1200px) {
+	.scissorsbox {
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.scissorsbox {
+		padding-left: 7%;
+		padding-right: 7%;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	.scissors{
+	width:250px;
+	height:auto;
+	opacity:89%
+	}
+}
+
+@media screen and (max-width: 768px) {
+  	.scissorsbox {
+		padding-left: 0%;
+		padding-right: 0%;
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	.scissors {
+		width:150px;
+		height:auto;
+		opacity:89%
+	}
+	.scissorstext {font-size:16px}
+}
