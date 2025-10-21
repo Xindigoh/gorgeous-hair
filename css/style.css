@@ -223,6 +223,14 @@ a {text-decoration: none;}
 
 #facebook:hover{color:#4267B2}
 
+#facebookcontact{
+  font-size: 30px;
+  color: rgb(104, 104, 104);
+  transition: 0.3s;
+}
+
+#facebookcontact:hover{color:#4267B2}
+
 #instagram{
   font-size: 20px;
   color: rgb(104, 104, 104);
@@ -230,6 +238,15 @@ a {text-decoration: none;}
 }
 
 #instagram:hover{color:#E1306C}
+
+#instagramcontact{
+  font-size: 30px;
+  color: rgb(104, 104, 104);
+  transition: 0.3s;
+}
+
+#instagramcontact:hover{color:#E1306C}
+
 
 .sidenav a{color:#777}
 
@@ -271,6 +288,11 @@ a {text-decoration: none;}
 #footer {
   margin-top: auto;
   width: 100%;
+}
+
+.contactinfo p, .contactinfo a:link {
+	font-size: 20px;
+	color: #696969;
 }
 
 .contact-hover {
